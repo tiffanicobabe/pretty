@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.menu {
+	background-color: #FFF0F5; /* Blush */
+	padding: 20px 0;
+	font-family: "Pangolin", monospace;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.welcome {
+	font-size: 36px;
+}
+
+.content {
+	margin: 50px auto;
+	font-family: "Pangolin", monospace;
+	font-size: 24px;
+	width: 900px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.intro {
+	text-align: center;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: purple;
+}
+a:hover {
+	color:pink;
+}
+
+
